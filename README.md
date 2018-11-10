@@ -14,24 +14,46 @@ Open Terminal.
 
 Set a Git username:
 ```
-git config --global user.name "Mona Lisa"
+UserName: 
+
+$ git config --global user.name "Mona Lisa"
 Confirm that you have set the Git username correctly:
+Email: 
+
+$ git config --global user.email "email@example.com"
+
 ```
 ```
-git config --global user.name
+To show username and email for globlly settings: 
+
+$ git config --global user.name
 Mona Lisa
+$ git config --global user.email 
+email@example.com
+
 ```
 
 Setting your Git username for a single repository
 Open Terminal.
 
-Set a Git username:
+Set a Git username and mail :
 ```
+
+Set UserName : 
 $ cd <your local repository folder>
-$ git config user.name "Mona Lisa"
+$ git config --local user.name "Mona Lisa"
 Confirm that you have set the Git username correctly:
 
-$ git config user.name
+Set Email: 
+$ git config --local user.email "email@example.com"
+
+Show Local User: 
+$ git config --local user.name
 Mona Lisa
+
+Show Local Email :
+
+$ git config --local user.email 
+email@example.com
 
 ```
