@@ -7,6 +7,12 @@ Trying to pull files from my Github repository: “refusing to merge unrelated h
 $ git pull origin master --allow-unrelated-histories
 
 ```
+###Necessary Commands for git:
+1. Basic Commands:
+2. Marge Commands:
+3. Rebase commands:
+4. gitFlow COmmands:
+
 
 Setting your Git username for every repository on your computer.  
 
@@ -33,10 +39,10 @@ email@example.com
 
 ```
 
-Setting your Git username for a single repository
+Setting your Git username and mail for a single repository
 Open Terminal.
 
-Set a Git username and mail :
+Setup Git username and mail :
 ```
 
 Set UserName : 
