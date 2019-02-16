@@ -1,4 +1,4 @@
-# gitCommands
+# GitCommands
 Trying to pull files from my Github repository: “refusing to merge unrelated histories”  
 
  Solved by this command: 
@@ -7,7 +7,7 @@ Trying to pull files from my Github repository: “refusing to merge unrelated h
 $ git pull origin master --allow-unrelated-histories
 
 ```
-###Necessary Commands for git:
+### Necessary Commands for git:
 1. Basic Commands:
 2. Marge Commands:
 3. Rebase commands:
