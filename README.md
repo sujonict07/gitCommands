@@ -63,3 +63,7 @@ $ git config --local user.email
 email@example.com
 
 ```
+### Delete all branches except master:
+```
+$ git branch | grep -v "master" | xargs git branch -D 
+```
